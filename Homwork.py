@@ -39,6 +39,6 @@ user_age = int(input ("how old are you\t"))
 remineder =  100 - user_age
 print("You will became  100 year old after",remineder , "year")
 
-print("hello from git")
 
-asdasd
+
+print("hello from git")
