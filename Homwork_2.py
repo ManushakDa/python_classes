@@ -41,4 +41,3 @@ print("You will became  100 year old after",remineder , "year")
 
 
 
-print("hello from git")
