@@ -52,5 +52,5 @@ class Product(Country, Brand, Season):
         return total_price
 
 
-product1 = Product("Geox", "dress", 150000, 1, " Yerevan", "Asia", "Brand name", "01/12/2017", "Autumn", 25 )
+product1 = Product("Geox", "dress", 150000, 1, " Yerevan", "Asia", "Br", "01/12/2017", "Autumn", 25 )
 

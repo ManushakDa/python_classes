@@ -21,12 +21,12 @@ class Human:
         optimal_weight = 50 + 0.75 * (self.height - 150) + (self.weight - 20) / 4
         print("Your optimal weight will be", optimal_weight)
 
-    def present(self):
+    def present(name, surname, age, height, weight, gender):
         return "sad"
 
 
 class Student(Human):
-    def __init__(self, marks):
+    def __init__(self, marks,name, surname,age, height, weight, gender):
 
         super().__init__(name, surname,age, height, weight, gender)
         self.marks = marks
@@ -44,14 +44,13 @@ class Student(Human):
         print(sum(self.marks) / len(self.marks))
 
     def present(self):
-        print("present")
+        print()
 
 
 # human1 = Human("man", "Xalatyan", 100, 155, 159, "mail")
 # human1.person_will_be_100_years_old()
 # human1.human_optimal_weight()
-st1 = Student([15, 15, 25, 36, 96])
+st1 = Student([15, 15, 25, 36, 96],"man", "Xalatyan", 100, 155, 159, "mail",)
 st1.avg()
 st1.present()
 
-Emp_1 = Student( "Suraj kr gupta", "Noida", 15,158 ,"KKK@g",[1,5])
